@@ -13,10 +13,10 @@ function Boton(props) {
 
     return (
         <div
-          // La fx isOperator toma el valor {props.children} y dependiendo de eso se asigna la class operator o null
-          className={`button-container ${isOperator(props.children) ? 'operator' : null}`.trimEnd()}>
-         {/* Permite que el componente acepte múltiples hijos */}
-         {props.children} 
+          // La fx isOperator toma el valor {props.children} y dependiendo de eso se asigna la class operator o ninguna class
+          className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}>
+          {/* Permite que el componente acepte múltiples hijos */}
+          {props.children} 
         </div>
     );
 }
