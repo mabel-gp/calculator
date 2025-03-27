@@ -1,3 +1,5 @@
+import '../stylesheets/Screen.css'
+
 // Definición de componente funcional como un fx flecha
 
 const Screen = ({input}) => (
