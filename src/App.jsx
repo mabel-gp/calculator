@@ -1,6 +1,7 @@
 import './App.css'
 import Boton from './components/Boton'
 import Screen from './components/screen'
+import BotonClear from './components/BotonClear'
 
 function App() {
   return (
@@ -34,9 +35,9 @@ function App() {
             <Boton>=</Boton>
             <Boton>/</Boton>
           </div>
+          <BotonClear/>
         </div>
     </div>
-     
   )
 }
 
