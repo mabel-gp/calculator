@@ -14,7 +14,11 @@ function Boton(props) {
     return (
         <div
           // La fx isOperator toma el valor {props.children} y dependiendo de eso se asigna la class operator o ninguna class
-          className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}>
+          className={`button-container ${isOperator(props.children) ? 'operator' : ''}`.trimEnd()}
+          // Cuando se hace click se llama a esta fx
+          onClick={() => {
+            props.handleClick(props.children)
+          }}>
           {/* Permite que el componente acepte múltiples hijos */}
           {props.children} 
         </div>
