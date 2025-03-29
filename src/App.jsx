@@ -12,6 +12,10 @@ function App() {
     setInput(input + value)
   }
 
+  const clearInput = () => {
+    setInput('')
+  }
+
   return (
     <div className='App'>
         <div className='title-container'>
@@ -43,7 +47,10 @@ function App() {
             <Boton handleClick={addInput}>=</Boton>
             <Boton handleClick={addInput}>/</Boton>
           </div>
-          <BotonClear/>
+          <div className='row'>
+            {/* Regresa al estado incial la pantalla */}
+            <BotonClear handleClick={clearInput}/>
+          </div>
         </div>
     </div>
   )

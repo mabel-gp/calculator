@@ -1,8 +1,10 @@
 import '../stylesheets/BotonClear.css'
 
-const BotonClear = () => (
-    <div className="boton-clear">
-      Clear
+const BotonClear = (props) => (
+    <div 
+      className="boton-clear" 
+      onClick={props.handleClick}>
+        Clear
     </div>
 )
 
