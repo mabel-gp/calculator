@@ -3,17 +3,25 @@ import Boton from './components/Boton'
 import Screen from './components/screen'
 import BotonClear from './components/BotonClear'
 import { useState } from 'react';
+import { evaluate } from 'mathjs';
 
 function App() {
 
   const [input, setInput] = useState('');
 
+  // Para agregar el valor presionado a la pantalla
   const addInput = value => {
     setInput(input + value)
   }
 
+  // Para limpiar la pantalla
   const clearInput = () => {
     setInput('')
+  }
+
+  // Para calcular el resultado
+  const calculateResult = () => {
+    setInput(evaluate(input));
   }
 
   return (
@@ -42,9 +50,9 @@ function App() {
             <Boton handleClick={addInput}>*</Boton>
           </div>
           <div className='row'>
-            <Boton handleClick={addInput}>.</Boton>
+            <Boton handleClick={calculateResult}>=</Boton>
             <Boton handleClick={addInput}>0</Boton>
-            <Boton handleClick={addInput}>=</Boton>
+            <Boton handleClick={addInput}>.</Boton>
             <Boton handleClick={addInput}>/</Boton>
           </div>
           <div className='row'>
