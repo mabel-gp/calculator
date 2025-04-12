@@ -12,12 +12,12 @@ function App() {
   // Para agregar el valor presionado a la pantalla
   const addInput = value => {
     setInput(input + value)
-  }
+  };
 
   // Para limpiar la pantalla
   const clearInput = () => {
     setInput('')
-  }
+  };
 
   // Para calcular el resultado
   const calculateResult = () => {
@@ -26,7 +26,7 @@ function App() {
     } else {
       alert ('Ingresa un valor válido.')
     }
-  }
+  };
 
   return (
     <div className='App'>

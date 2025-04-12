@@ -4,7 +4,7 @@ function Boton(props) {
 
     const isOperator = value => {
       // Si el valor no es un # y no es signos (= o .), se considera un operador
-      if(isNaN(value) && value != '.' && value != '='){
+      if(isNaN(value) && value !== '.' && value !== '='){
         return true;
       } else {
         return false;
