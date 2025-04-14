@@ -3,7 +3,7 @@
 Este proyecto es una pequeña calculadora interactiva construida con **React**, **Vite** y **JSX**.  
 La aplicación permite realizar operaciones básicas, el resultado se muestra en un input a modo de pantalla.
 
-Calculator está disponible para su visualización en el siguiente enlace:
+**Calculator** está disponible para su visualización en el siguiente enlace:
 https://mabel-gp.github.io/calculator/
 
 ## 🛠️ Tecnologías utilizadas
