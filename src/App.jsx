@@ -24,7 +24,7 @@ function App() {
     if (input) {
       setInput(evaluate(input));
     } else {
-      alert ('Ingresa un valor válido.')
+      alert ('Ingresa una operación válida antes de presionar el botón igual.')
     }
   };
 
