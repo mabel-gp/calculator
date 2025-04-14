@@ -20,6 +20,12 @@ https://mabel-gp.github.io/calculator/
 
 - Diseño amigable y fácil de usar.
 
+## 👁‍🗨 Vista Previa
+
+<p align="center">
+    <img src="src/assets/calculator.png" width="300" >
+</p>
+
 ## 📝 Aprendizajes
 
 Durante este proyecto, he aprendido:
@@ -29,11 +35,5 @@ Durante este proyecto, he aprendido:
 **- Desarrollo con Vite:** Aprendí cómo configurar y optimizar proyectos en Vite para un rendimiento más rápido en el entorno de desarrollo.
 
 **- Componentes Interactivos:** Experimenté con la creación de componentes que responden a la interacción del usuario, como el el Botón Clear.
-
-## 👁‍🗨 Vista Previa
-
-<p align="center">
-    <img src="src/assets/calculator.png" width="300" >
-</p>
 
 ¡Gracias por ver!
